@@ -1,0 +1,46 @@
+.tasks-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: purple;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  height: 60px;
+}
+
+.remove-button {
+  background-color: #2e1213;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.remove-button:hover {
+  background-color: #8e6bba;
+  transition: ease-in 0.3s;
+}
+
+.tasks-item {
+  font-size: larger;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.task-actions label {
+  font-size: smaller;
+}
+
+.task-checkbox {
+  width: 20px;
+  height: 20px;
+}
